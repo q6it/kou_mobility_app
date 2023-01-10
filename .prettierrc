@@ -1,0 +1,31 @@
+{
+  "tabWidth": 4,
+  "printWidth": 100,
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": [
+        ".prettierrc",
+        ".eslintrc",
+        ".babelrc",
+        "*.json",
+        "*.webmanifest",
+        "*.yml",
+        "*.yaml"
+      ],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ".sol",
+      "options": {
+        "bracketSpacing": false,
+        "explicitTypes": "always"
+      }
+    }
+  ]
+}
