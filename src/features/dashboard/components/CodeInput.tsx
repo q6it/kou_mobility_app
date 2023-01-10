@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction, useState } from 'react';
 
-import { Alert, Button, Card, CardContent, Grid, TextField, Typography } from '@mui/material';
+import { Alert, Button, TextField, Typography } from '@mui/material';
 import { Box, Container } from '@mui/material';
 
 import { pairScooter } from '../api';
