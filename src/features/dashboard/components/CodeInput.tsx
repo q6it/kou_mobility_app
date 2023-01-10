@@ -3,8 +3,8 @@ import React, { Dispatch, SetStateAction, useState } from 'react';
 import { Alert, Button, Card, CardContent, Grid, TextField, Typography } from '@mui/material';
 import { Box, Container } from '@mui/material';
 
-import { pairScooter } from './api';
-import { useAuth } from '../../context/AuthContext';
+import { pairScooter } from '../api';
+import { useAuth } from '../../../context/AuthContext';
 
 type CodeInputProps = {
     loading: boolean;

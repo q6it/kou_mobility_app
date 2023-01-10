@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { Box, Card, CardContent, CardHeader, FormControlLabel, Switch } from '@mui/material';
 
 import ElectricScooterIcon from '@mui/icons-material/ElectricScooter';
-import VehicleStatsText from './components/atoms/VehicleStatsText';
+import VehicleStatsText from './atoms/VehicleStatsText';
 
 interface VehicleProps {
     name: string;

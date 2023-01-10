@@ -10,9 +10,9 @@ import { sendCommand } from './api';
 import { useAuth } from '../../context/AuthContext';
 import { db } from '../auth/Auth';
 
-import CodeInput from './CodeInput';
-import Map from './Map';
-import Vehicle from './Vehicle';
+import CodeInput from './components/CodeInput';
+import Map from './components/Map';
+import Vehicle from './components/Vehicle';
 
 const Dashboard = () => {
     const [activeVehicle, setActiveVehicle] = useState<any>(null);
