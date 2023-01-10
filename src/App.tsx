@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import { Grid } from '@mui/material';
 
 import Router from './router';
-
-import LoginForm from './features/Login/LoginForm';
-import Signup from './features/SignUp/SignUpForm';
 
 import AuthProvider from './context/AuthContext';
 
