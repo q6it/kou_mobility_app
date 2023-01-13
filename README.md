@@ -31,7 +31,18 @@ git clone https://github.com/q6it/kou_mobility_app.git
 npm install
 ```
 
-3. Start the development server
+3. Create an .env file in the root directory and add next variables:
+
+    - VITE_API_KEY=`Your firebase app apiKey`
+    - VITE_AUTH_DOMAIN=`Your firebase app authDomain`
+    - VITE_PROJECT_ID=`Your firebase app projectId`
+    - VITE_STORAGE_BUCKET=`Your firebase app storageBucket`
+    - VITE_MESSAGING_SENDER_ID=`Your firebase app messagingSenderId`
+    - VITE_APP_ID=`Your firebase app appId`
+    - VITE_MEASUREMENT_ID=`Your firebase app measurementId`
+    - VITE_GOOGLE_API_KEY=`Your google maps api key `
+
+4. Start the development server
 
 ```bash
 npm run dev
